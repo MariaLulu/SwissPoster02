@@ -37,17 +37,19 @@
 	height: 650px;
 	background-color: #C9005B;
 	opacity: 0;
-	animation-duration: 1.5s;
+	animation-duration: 5s;
 	animation-name: rotatingrects1;
-	animation-iteration-count: 1;
-	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
 	animation-timing-function: ease-in;
 }
 
 @keyframes rotatingrects1{
 	0%{opacity: 0;}
-	20%{opacity: 0.85;}
-	100%{opacity: 0.85;}
+	6.4%{opacity: 0.85;}
+	32%{opacity: 0.85;}
+	73.6%{opacity: 0.85;}
+	80%{opacity: 0}
+	100%{opacity: 0}
 }
 
 #rect-2{
@@ -59,17 +61,18 @@
 	height: 650px;
 	background-color: #0E9697;
 	opacity: 0;
-	animation-duration: 1.5s;
+	animation-duration: 5s;
 	animation-name: rotatingrects2;
-	animation-iteration-count: 1;
-	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
 	animation-timing-function: ease-in;
 }
 
 @keyframes rotatingrects2{
 	0%{transform: rotate(0deg); opacity: 0;}
-	20%{transform: rotate(20deg); opacity: 0.85;}
-	100%{transform: rotate(20deg); opacity: 0.85;}
+	6.4%{transform: rotate(20deg); opacity: 0.85;}
+	73.6%{transform: rotate(20deg); opacity: 0.85;}
+	80%{transform: rotate(0deg); opacity: 0;}
+	100%{transform: rotate(0deg); opacity: 0;}
 }
 
 
@@ -82,18 +85,20 @@
 	height: 650px;
 	background-color: #F29E14;
 	opacity: 0;
-	animation-duration: 1.5s;
+	animation-duration: 5s;
 	animation-name: rotatingrects3;
-	animation-iteration-count: 1;
-	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
 	animation-timing-function: ease-in;
 }
 
 @keyframes rotatingrects3{
 	0%{transform: rotate(0deg); opacity: 0;}
-	20%{transform: rotate(20deg); opacity: 0.85;}
-	40%{transform: rotate(40deg); opacity: 0.85;}
-	100%{transform: rotate(40deg); opacity: 0.85;}
+	6.4%{transform: rotate(20deg); opacity: 0.85;}
+	12.8%{transform: rotate(40deg); opacity: 0.85;}
+	67.2%{transform: rotate(40deg); opacity: 0.85;}
+	73.6%{transform: rotate(20deg); opacity: 0.85;}
+	80%{transform: rotate(0deg); opacity: 0;}
+	100%{transform: rotate(0deg); opacity: 0;}
 }
 
 #rect-4{
@@ -105,19 +110,22 @@
 	height: 650px;
 	background-color: #C9005B;
 	opacity: 0;
-	animation-duration: 1.5s;
+	animation-duration: 5s;
 	animation-name: rotatingrects4;
-	animation-iteration-count: 1;
-	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
 	animation-timing-function: ease-in;
 }
 
 @keyframes rotatingrects4{
 	0%{transform: rotate(0deg); opacity: 0;}
-	20%{transform: rotate(20deg); opacity: 0.85;}
-	40%{transform: rotate(40deg); opacity: 0.85;}
-	60%{transform: rotate(60deg); opacity: 0.85;}
-	100%{transform: rotate(60deg); opacity: 0.85;}
+	6.4%{transform: rotate(20deg); opacity: 0.85;}
+	12.8%{transform: rotate(40deg); opacity: 0.85;}
+	19.2%{transform: rotate(60deg); opacity: 0.85;}
+	60.8%{transform: rotate(60deg); opacity: 0.85;}
+	67.2%{transform: rotate(40deg); opacity: 0.85;}
+	73.2%{transform: rotate(20deg); opacity: 0.85;}
+	80%{transform: rotate(0deg); opacity: 0;}
+	100%{transform: rotate(0deg); opacity: 0;}
 }
 
 #rect-5{
@@ -129,20 +137,24 @@
 	height: 650px;
 	background-color: #0E9697;
 	opacity: 0;
-	animation-duration: 1.5s;
+	animation-duration: 5s;
 	animation-name: rotatingrects5;
-	animation-iteration-count: 1;
-	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
 	animation-timing-function: ease-in;
 }
 
 @keyframes rotatingrects5{
 	0%{transform: rotate(0deg); opacity: 0;}
-	20%{transform: rotate(20deg); opacity: 0.85;}
-	40%{transform: rotate(40deg); opacity: 0.85;}
-	60%{transform: rotate(60deg); opacity: 0.85;}
-	80%{transform: rotate(80deg); opacity: 0.85;}
-	100%{transform: rotate(80deg); opacity: 0.85;}
+	6.4%{transform: rotate(20deg); opacity: 0.85;}
+	12.8%{transform: rotate(40deg); opacity: 0.85;}
+	19.2%{transform: rotate(60deg); opacity: 0.85;}
+	25.6%{transform: rotate(80deg); opacity: 0.85;}
+	54.4%{transform: rotate(80deg); opacity: 0.85;}
+	60.8%{transform: rotate(60deg); opacity: 0.85;}
+	67.2%{transform: rotate(40deg); opacity: 0.85;}
+	73.6%{transform: rotate(20deg); opacity: 0.85;}
+	80%{transform: rotate(0deg); opacity: 0;}
+	100%{transform: rotate(0deg); opacity: 0;}
 }
 
 #rect-6{
@@ -154,20 +166,24 @@
 	height: 650px;
 	background-color: #F29E14;
 	opacity: 0;
-	animation-duration: 1.5s;
+	animation-duration: 5s;
 	animation-name: rotatingrects6;
-	animation-iteration-count: 1;
-	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
 	animation-timing-function: ease-in;
 }
 
 @keyframes rotatingrects6{
 	0%{transform: rotate(0deg); opacity: 0;}
-	20%{transform: rotate(-20deg); opacity: 0.85;}
-	40%{transform: rotate(-40deg); opacity: 0.85;}
-	60%{transform: rotate(-60deg); opacity: 0.85;}
-	80%{transform: rotate(-80deg); opacity: 0.85;}
-	100%{transform: rotate(-80deg); opacity: 0.85;}
+	6.4%{transform: rotate(-20deg); opacity: 0.85;}
+	12.8%{transform: rotate(-40deg); opacity: 0.85;}
+	19.2%{transform: rotate(-60deg); opacity: 0.85;}
+	25.6%{transform: rotate(-80deg); opacity: 0.85;}
+	54.4%{transform: rotate(-80deg); opacity: 0.85;}
+	60.8%{transform: rotate(-60deg); opacity: 0.85;}
+	67.2%{transform: rotate(-40deg); opacity: 0.85;}
+	73.6%{transform: rotate(-20deg); opacity: 0.85;}
+	80%{transform: rotate(0deg); opacity: 0;}
+	100%{transform: rotate(0deg); opacity: 0;}
 }
 
 #rect-7{
@@ -179,19 +195,22 @@
 	height: 650px;
 	background-color: #C9005B;
 	opacity: 0;
-	animation-duration: 1.5s;
+	animation-duration: 5s;
 	animation-name: rotatingrects7;
-	animation-iteration-count: 1;
-	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
 	animation-timing-function: ease-in;
 }
 
 @keyframes rotatingrects7{
 	0%{transform: rotate(0deg); opacity: 0;}
-	20%{transform: rotate(-20deg); opacity: 0.85;}
-	40%{transform: rotate(-40deg); opacity: 0.85;}
-	60%{transform: rotate(-60deg); opacity: 0.85;}
-	100%{transform: rotate(-60deg); opacity: 0.85;}
+	6.4%{transform: rotate(-20deg); opacity: 0.85;}
+	12.8%{transform: rotate(-40deg); opacity: 0.85;}
+	19.2%{transform: rotate(-60deg); opacity: 0.85;}
+	60.8%{transform: rotate(-60deg); opacity: 0.85;}
+	67.2%{transform: rotate(-40deg); opacity: 0.85;}
+	73.6%{transform: rotate(-20deg); opacity: 0.85;}
+	80%{transform: rotate(0deg); opacity: 0;}
+	100%{transform: rotate(0deg); opacity: 0;}
 }
 
 #rect-8{
@@ -203,18 +222,20 @@
 	height: 650px;
 	background-color: #0E9697;
 	opacity: 0;
-	animation-duration: 1.5s;
+	animation-duration: 5s;
 	animation-name: rotatingrects8;
-	animation-iteration-count: 1;
-	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
 	animation-timing-function: ease-in;
 }
 
 @keyframes rotatingrects8{
 	0%{transform: rotate(0deg); opacity: 0;}
-	20%{transform: rotate(-20deg); opacity: 0.85;}
-	40%{transform: rotate(-40deg); opacity: 0.85;}
-	100%{transform: rotate(-40deg); opacity: 0.85;}
+	6.4%{transform: rotate(-20deg); opacity: 0.85;}
+	12.8%{transform: rotate(-40deg); opacity: 0.85;}
+	67.2%{transform: rotate(-40deg); opacity: 0.85;}
+	73.6%{transform: rotate(-20deg); opacity: 0.85;}
+	80%{transform: rotate(0deg); opacity: 0;}
+	100%{transform: rotate(0deg); opacity: 0;}
 }
 
 #rect-9{
@@ -227,16 +248,17 @@
 	opacity: 0.85;
 	background-color: #F29E14;
 	opacity: 0;
-	animation-duration: 1.5s;
+	animation-duration: 5s;
 	animation-name: rotatingrects9;
-	animation-iteration-count: 1;
-	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
 	animation-timing-function: ease-in;
 }
 
 @keyframes rotatingrects9{
 	0%{transform: rotate(0deg); opacity: 0;}
-	20%{transform: rotate(-20deg); opacity: 0.85;}
-	100%{transform: rotate(-20deg); opacity: 0.85;}
+	6.4%{transform: rotate(-20deg); opacity: 0.85;}
+	73.6%{transform: rotate(-20deg); opacity: 0.85;}
+	80%{transform: rotate(0deg); opacity: 0;}
+	100%{transform: rotate(0deg); opacity: 0;}
 }
 
