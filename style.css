@@ -1,0 +1,242 @@
+#postcanvas{
+	width: 700px;
+	height: 850px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	background-color: #D9DFD2;
+	box-shadow: 1px 1px 20px #333333;
+}
+
+#info{
+	padding-left: 25px;
+	padding-top: 5px;
+	font-family: 'Blinker',sans-serif;
+	font-weight: : 600;
+	font-size: 12px;
+}
+
+#info-horizontal{
+	float:left;
+}
+
+#infoHead{
+	padding-left: 25px;
+	padding-top: 100px;
+	font-size: 52px;
+	font-family: 'Blinker',sans-serif;
+	font-weight: 600;
+}
+
+#rect-1{
+	float:left;
+	position: absolute;
+	top: 30px;
+	left: 350px;
+	width: 40px;
+	height: 650px;
+	background-color: #C9005B;
+	opacity: 0;
+	animation-duration: 1.5s;
+	animation-name: rotatingrects1;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-in;
+}
+
+@keyframes rotatingrects1{
+	0%{opacity: 0;}
+	20%{opacity: 0.85;}
+	100%{opacity: 0.85;}
+}
+
+#rect-2{
+	float:left;
+	position: absolute;
+	top: 30px;
+	left: 350px;
+	width: 40px;
+	height: 650px;
+	background-color: #0E9697;
+	opacity: 0;
+	animation-duration: 1.5s;
+	animation-name: rotatingrects2;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-in;
+}
+
+@keyframes rotatingrects2{
+	0%{transform: rotate(0deg); opacity: 0;}
+	20%{transform: rotate(20deg); opacity: 0.85;}
+	100%{transform: rotate(20deg); opacity: 0.85;}
+}
+
+
+#rect-3{
+	float:left;
+	position: absolute;
+	top: 30px;
+	left: 350px;
+	width: 40px;
+	height: 650px;
+	background-color: #F29E14;
+	opacity: 0;
+	animation-duration: 1.5s;
+	animation-name: rotatingrects3;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-in;
+}
+
+@keyframes rotatingrects3{
+	0%{transform: rotate(0deg); opacity: 0;}
+	20%{transform: rotate(20deg); opacity: 0.85;}
+	40%{transform: rotate(40deg); opacity: 0.85;}
+	100%{transform: rotate(40deg); opacity: 0.85;}
+}
+
+#rect-4{
+	float:left;
+	position: absolute;
+	top: 30px;
+	left: 350px;
+	width: 40px;
+	height: 650px;
+	background-color: #C9005B;
+	opacity: 0;
+	animation-duration: 1.5s;
+	animation-name: rotatingrects4;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-in;
+}
+
+@keyframes rotatingrects4{
+	0%{transform: rotate(0deg); opacity: 0;}
+	20%{transform: rotate(20deg); opacity: 0.85;}
+	40%{transform: rotate(40deg); opacity: 0.85;}
+	60%{transform: rotate(60deg); opacity: 0.85;}
+	100%{transform: rotate(60deg); opacity: 0.85;}
+}
+
+#rect-5{
+	float:left;
+	position: absolute;
+	top: 30px;
+	left: 350px;
+	width: 40px;
+	height: 650px;
+	background-color: #0E9697;
+	opacity: 0;
+	animation-duration: 1.5s;
+	animation-name: rotatingrects5;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-in;
+}
+
+@keyframes rotatingrects5{
+	0%{transform: rotate(0deg); opacity: 0;}
+	20%{transform: rotate(20deg); opacity: 0.85;}
+	40%{transform: rotate(40deg); opacity: 0.85;}
+	60%{transform: rotate(60deg); opacity: 0.85;}
+	80%{transform: rotate(80deg); opacity: 0.85;}
+	100%{transform: rotate(80deg); opacity: 0.85;}
+}
+
+#rect-6{
+	float:left;
+	position: absolute;
+	top: 30px;
+	left: 350px;
+	width: 40px;
+	height: 650px;
+	background-color: #F29E14;
+	opacity: 0;
+	animation-duration: 1.5s;
+	animation-name: rotatingrects6;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-in;
+}
+
+@keyframes rotatingrects6{
+	0%{transform: rotate(0deg); opacity: 0;}
+	20%{transform: rotate(-20deg); opacity: 0.85;}
+	40%{transform: rotate(-40deg); opacity: 0.85;}
+	60%{transform: rotate(-60deg); opacity: 0.85;}
+	80%{transform: rotate(-80deg); opacity: 0.85;}
+	100%{transform: rotate(-80deg); opacity: 0.85;}
+}
+
+#rect-7{
+	float:left;
+	position: absolute;
+	top: 30px;
+	left: 350px;
+	width: 40px;
+	height: 650px;
+	background-color: #C9005B;
+	opacity: 0;
+	animation-duration: 1.5s;
+	animation-name: rotatingrects7;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-in;
+}
+
+@keyframes rotatingrects7{
+	0%{transform: rotate(0deg); opacity: 0;}
+	20%{transform: rotate(-20deg); opacity: 0.85;}
+	40%{transform: rotate(-40deg); opacity: 0.85;}
+	60%{transform: rotate(-60deg); opacity: 0.85;}
+	100%{transform: rotate(-60deg); opacity: 0.85;}
+}
+
+#rect-8{
+	float:left;
+	position: absolute;
+	top: 30px;
+	left: 350px;
+	width: 40px;
+	height: 650px;
+	background-color: #0E9697;
+	opacity: 0;
+	animation-duration: 1.5s;
+	animation-name: rotatingrects8;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-in;
+}
+
+@keyframes rotatingrects8{
+	0%{transform: rotate(0deg); opacity: 0;}
+	20%{transform: rotate(-20deg); opacity: 0.85;}
+	40%{transform: rotate(-40deg); opacity: 0.85;}
+	100%{transform: rotate(-40deg); opacity: 0.85;}
+}
+
+#rect-9{
+	float:left;
+	position: absolute;
+	top: 30px;
+	left: 350px;
+	width: 40px;
+	height: 650px;
+	opacity: 0.85;
+	background-color: #F29E14;
+	opacity: 0;
+	animation-duration: 1.5s;
+	animation-name: rotatingrects9;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-in;
+}
+
+@keyframes rotatingrects9{
+	0%{transform: rotate(0deg); opacity: 0;}
+	20%{transform: rotate(-20deg); opacity: 0.85;}
+	100%{transform: rotate(-20deg); opacity: 0.85;}
+}
+
